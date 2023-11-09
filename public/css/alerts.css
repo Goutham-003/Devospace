@@ -1,0 +1,31 @@
+.rounded-sweetalert .swal2-popup {
+  border-radius: 20px;
+  /* Adjust the value as needed */
+  max-width: 400px;
+}
+
+.rounded-sweetalert .swal2-popup {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Custom hover color for the "OK" button */
+.rounded-sweetalert .swal2-confirm:not([disabled]):hover {
+  background-color: orange !important;
+  color: white !important;
+}
+
+.rounded-sweetalert .swal2-confirm {
+  border-radius: 10px;
+  padding: 12px 30px;
+  background-color: #3482ff;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  /* Adjust the border-radius as needed */
+}
+
+.rounded-sweetalert .swal2-confirm:focus {
+  outline: none;
+  box-shadow: none;
+}
